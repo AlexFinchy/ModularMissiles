@@ -1,0 +1,13 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "blocks/dirt"
+    },
+    "model": "Missile_1.obj",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}
