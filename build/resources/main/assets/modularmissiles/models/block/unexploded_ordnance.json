@@ -1,4 +1,4 @@
 {
   "loader": "forge:obj",
-  "model": "modularmissiles:models/unexploded_ordnance.obj"
+  "model": "modularmissiles:models/lowpoly.obj"
 }
