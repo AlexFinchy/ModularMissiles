@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: Modular Missiles
-Implementation-Version: 1.0
-Specification-Vendor: examplemodsareus
-Specification-Title: modularmissiles
-Implementation-Timestamp: 2021-01-14T15:37:23+0000
-Specification-Version: 1
-Implementation-Vendor: modularmissiles
-
