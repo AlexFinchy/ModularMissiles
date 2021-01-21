@@ -1,6 +1,6 @@
 package com.alexalien.modularmissiles.common;
 
-import com.alexalien.modularmissiles.common.items.Items;
+import com.alexalien.modularmissiles.common.blocks.ModularMissilesBlocks;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -13,7 +13,7 @@ public class ModularmissilesGroup extends ItemGroup {
 
 	@Override
 	public ItemStack createIcon() {
-		return new ItemStack(Items.TITANIUM_INGOT.get());
+		return new ItemStack(ModularMissilesBlocks.UNEXPLODED_ORDANCE.get());
 	}
 	
 	

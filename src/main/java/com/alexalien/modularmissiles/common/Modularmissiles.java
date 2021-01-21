@@ -1,10 +1,7 @@
 package com.alexalien.modularmissiles.common;
 
-import com.alexalien.modularmissiles.common.blocks.Blocks;
+import com.alexalien.modularmissiles.common.blocks.ModularMissilesBlocks;
 import com.alexalien.modularmissiles.common.world.WorldGenerationSetup;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
@@ -18,7 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.alexalien.modularmissiles.common.items.Items;
+import com.alexalien.modularmissiles.common.items.ModularMissilesItems;
 
 import java.util.stream.Collectors;
 
@@ -49,11 +46,10 @@ public class Modularmissiles
 
 
     public Modularmissiles() {
-    	
     	IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        Blocks.BLOCKSREGISTRY.register(modEventBus);
-    	Items.ITEMSREGISTRY.register(modEventBus);
+        ModularMissilesBlocks.BLOCKSREGISTRY.register(modEventBus);
+    	ModularMissilesItems.ITEMSREGISTRY.register(modEventBus);
 
 
 

@@ -40,12 +40,11 @@ public class ModItemModelProvieder extends ItemModelProvider {
 		withExistingParent("titanium_ore", modLoc("block/titanium_ore"));
 		withExistingParent("bauxite_ore", modLoc("block/bauxite_ore"));
 		withExistingParent("tungsten_ore", modLoc("block/tungsten_ore"));
+		withExistingParent("compressed_stone", modLoc("block/compressed_stone"));
 
 
-		getBuilder("test_block").customLoader(OBJLoaderBuilder::begin).modelLocation(new ResourceLocation(Modularmissiles.MODID, "models/lowpoly.obj")).end();
-
-
-
+		//Unexploded Ordnance
+		getBuilder("unexploded_ordnance").customLoader(OBJLoaderBuilder::begin).modelLocation(new ResourceLocation(Modularmissiles.MODID, "models/unexploded_ordnance.obj")).end();
 
 		getBuilder("titanium_ingot").parent(itemgenerated).texture("layer0", "item/titanium_ingot");
 		getBuilder("tungsten_ingot").parent(itemgenerated).texture("layer0", "item/titanium_ingot");

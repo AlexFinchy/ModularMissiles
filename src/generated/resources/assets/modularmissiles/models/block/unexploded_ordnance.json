@@ -1,4 +1,6 @@
 {
   "loader": "forge:obj",
-  "model": "modularmissiles:models/lowpoly.obj"
+  "model": "modularmissiles:models/unexploded_ordnance.obj",
+  "flip-v": true,
+  "ambientToFullbright": true
 }

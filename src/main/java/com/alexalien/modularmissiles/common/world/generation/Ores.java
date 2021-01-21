@@ -1,7 +1,6 @@
 package com.alexalien.modularmissiles.common.world.generation;
 
-import com.alexalien.modularmissiles.common.blocks.Blocks;
-import net.minecraft.block.Block;
+import com.alexalien.modularmissiles.common.blocks.ModularMissilesBlocks;
 
 public class Ores {
 
@@ -13,13 +12,13 @@ public class Ores {
                 .func_242731_b(64))); //Amount per chunk
         */
 
-        ModularOreUtils.registerOreGen(Blocks.TITANIUM_ORE.get(), OreDimension.OVERWORLD, 6, 30,  8);
+        ModularOreUtils.registerOreGen(ModularMissilesBlocks.TITANIUM_ORE.get(), OreDimension.OVERWORLD, 6, 30,  8);
 
-        ModularOreUtils.registerOreGen(Blocks.BAUXITE_ORE.get(), OreDimension.OVERWORLD, 8, 40, 10);
+        ModularOreUtils.registerOreGen(ModularMissilesBlocks.BAUXITE_ORE.get(), OreDimension.OVERWORLD, 8, 40, 10);
 
-        ModularOreUtils.registerOreGen(Blocks.TUNGSTEN_ORE.get(), OreDimension.OVERWORLD, 6, 30, 8);
+        ModularOreUtils.registerOreGen(ModularMissilesBlocks.TUNGSTEN_ORE.get(), OreDimension.OVERWORLD, 6, 30, 8);
 
-        ModularOreUtils.registerOreGen(Blocks.UNEXPLODED_ORDANCE.get(), OreDimension.OVERWORLD, 1, 60, 10);
+        ModularOreUtils.registerOreGen(ModularMissilesBlocks.UNEXPLODED_ORDANCE.get(), OreDimension.OVERWORLD, 2, 60, 64);
         //TODO needs custom NBT data and its own generation class
     }
 }

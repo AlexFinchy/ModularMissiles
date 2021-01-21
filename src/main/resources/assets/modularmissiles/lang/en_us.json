@@ -8,5 +8,6 @@
   "item.modularmissiles.tungsten_ore" : "Tungsten Ore",
   "block.modularmissiles.titanium_ore" : "Titanium Ore",
   "block.modularmissiles.bauxite_ore" : "Bauxite Ore",
-  "block.modularmissiles.tungsten_ore" : "Tungsten Ore"
+  "block.modularmissiles.tungsten_ore" : "Tungsten Ore",
+  "block.modularmissiles.compressed_stone" : "Compressed Stone"
 }
